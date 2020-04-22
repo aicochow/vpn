@@ -47,11 +47,12 @@
         }
 
         .ais-InfiniteHits-loadMore {
+            background: rgba(63, 81, 181, 0.32);
             width: 100%;
             margin-top: 0.5rem;
             padding: 1rem;
             border-radius: 0.25rem;
-            color: #b8c2cc;
+            color: rgb(63, 81, 181);
             font-weight: bold;
             -webkit-transition: all 0.1s linear;
             -o-transition: all 0.1s linear;
@@ -99,7 +100,7 @@
 
 <body>
     <div style="height: 80px;line-height: 80px;text-align: center;">
-        <a href="https://gfw.netlify.com" style="text-decoration: none;">
+        <a href="https://gfw.netlify.app" style="text-decoration: none;">
             <h3>GFW VPN</h3>
         </a>
     </div>
@@ -151,7 +152,7 @@
                     empty: `<p class="info" style="height: 50px;line-height: 50px;text-align: center;">没有搜索到结果. <br/></p>`,
                     item: `
                             <h2>
-                                <a href=https://gfw-blog.netlify.com{{ url }}>
+                                <a href=https://gfw-blog.netlify.app{{ url }}>
                                     {{#helpers.highlight}}{ "attribute": "title" }{{/helpers.highlight}}
                                 </a>
                             </h2>
